@@ -1,3 +1,6 @@
+#the library that is used to write detailed logs of the vehicles actions
+#author: katznboyz/harrison
+
 #import statements
 import os, datetime
 
