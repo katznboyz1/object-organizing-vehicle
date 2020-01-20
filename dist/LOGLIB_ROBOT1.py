@@ -25,7 +25,7 @@ class RobotActionLogger:
         if (not os.path.exists(str(logFolderPath))):
 
             #since the path does not exist raise an error
-            raise RobotActionLogger.WritePathNonexistentError('The path {} does not exist. Please initialize the logger into a folder that already exists.')
+            raise RobotActionLogger.WritePathNonexistentError('The path "{}" does not exist. Please initialize the logger into a folder that already exists.'.format(logFolderPath))
 
         #set the log path to logFolderPath
         self.LOG_PATH = str(logFolderPath)
